@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1	SAMPLE2	SAMPLE3
+chr1	1000	rs1234	A	G	100	PASS	AF=0.5	GT	0/0	0/1	1/1
+chr1	2000	rs5678	C	T	100	PASS	AF=0.3	GT	0/1	0/0	0/1
+chr2	3000	rs9012	G	A	100	PASS	AF=0.7	GT	1/1	0/1	1/1 
