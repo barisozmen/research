@@ -62,6 +62,9 @@ class Population(list[Individual]):
     def __contains__(self, item):
         return super().__contains__(item)
 
+
+
+
 def init(): return Population([
     Individual(DNA(code="x**2")),
     Individual(DNA(code="np.sin(x) * np.cos(x)")),
@@ -91,8 +94,7 @@ def init(): return Population([
     Individual(DNA(code="sp.nthprime(min(max(int(abs(x)), 1), 100))"))
 ])
 
-def score(population): 
-    
+def score(population):
     return population
 
 def assign_fitness(population): return population
