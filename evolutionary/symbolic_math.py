@@ -319,7 +319,7 @@ final_pop, logbook = algorithms.eaSimple(
     pop, toolbox, 
     cxpb=0.7,      # Higher crossover rate for diversity
     mutpb=0.3,     # Mutation rate  
-    ngen=1000,      # Fewer generations for multi-objective
+    ngen=500,      # Fewer generations for multi-objective
     stats=stats,
     halloffame=hof, 
     verbose=True
